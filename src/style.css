@@ -425,3 +425,126 @@ textarea {
   border-radius: 8px;
   font-size: 16px;
 }
+/* MEDIA QUERIES START HERE */
+
+@media (max-width: 1024px) {
+  .header {
+    padding: 20px 5%;
+  }
+
+  .home {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .home-img img {
+    max-width: 400px;
+    margin: 20px auto;
+  }
+
+  .about-img img {
+    width: 250px;
+  }
+
+  .skills-content {
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  }
+
+  .certificate-card {
+    width: 45%;
+  }
+
+  .project-container {
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  }
+}
+
+@media (max-width: 768px) {
+  .header {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .navbar {
+    display: none; /* You can replace this with a toggle menu */
+  }
+
+  .home-content h1 {
+    font-size: 32px;
+  }
+
+  .home-content h3 {
+    font-size: 22px;
+  }
+
+  .home-content p {
+    font-size: 14px;
+  }
+
+  .btn {
+    font-size: 14px;
+    padding: 10px 20px;
+  }
+
+  .about {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .about-img img {
+    margin-bottom: 20px;
+  }
+
+  .skills-content {
+    grid-template-columns: 1fr;
+  }
+
+  .certificate-card {
+    width: 100%;
+  }
+
+  .project-container {
+    grid-template-columns: 1fr;
+  }
+
+  .input-box {
+    flex-direction: column;
+  }
+
+  .contact form .input-box input {
+    width: 100%;
+    margin-bottom: 15px;
+  }
+
+  .contact {
+    padding: 60px 5% 40px;
+  }
+}
+
+@media (max-width: 480px) {
+  .home-content h1 {
+    font-size: 26px;
+  }
+
+  .home-content h3 {
+    font-size: 18px;
+  }
+
+  .home-content p {
+    font-size: 13px;
+  }
+
+  .btn {
+    font-size: 12px;
+    padding: 8px 16px;
+  }
+
+  .about-img img {
+    width: 200px;
+  }
+
+  .footer {
+    font-size: 12px;
+  }
+}
