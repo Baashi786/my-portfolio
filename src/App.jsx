@@ -6,7 +6,7 @@ import Skills from "./components/Skills.jsx";
 import Projects from "./components/Projects.jsx";
 import Certifications from "./components/Certifications.jsx";
 import Contact from "./components/Contact.jsx";
-
+import ResumeViewer from "./components/ResumeViewer";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 

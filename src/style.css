@@ -567,3 +567,135 @@ textarea {
         transition: none !important;
     }
 }
+/* Navbar base */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background: #111;
+  color: white;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1000;
+}
+
+/* Logo */
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+/* Nav Links */
+.nav-links {
+  display: flex;
+  gap: 1.5rem;
+}
+
+/* Buttons */
+.nav-button {
+  background: none;
+  border: none;
+  color: white;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.nav-button:hover {
+  color: #00ffff;
+}
+
+/* Hamburger Icon */
+.hamburger {
+  display: none;
+  flex-direction: column;
+  gap: 5px;
+  cursor: pointer;
+}
+
+.hamburger span {
+  width: 25px;
+  height: 3px;
+  background: white;
+  border-radius: 2px;
+  transition: 0.3s;
+}
+
+/* Mobile Menu Open Animation */
+.hamburger.active span:nth-child(1) {
+  transform: rotate(45deg) translate(5px, 5px);
+}
+.hamburger.active span:nth-child(2) {
+  opacity: 0;
+}
+.hamburger.active span:nth-child(3) {
+  transform: rotate(-45deg) translate(5px, -5px);
+}
+
+/* Mobile Menu */
+@media (max-width: 768px) {
+  .nav-links {
+    position: absolute;
+    top: 70px;
+    right: 0;
+    background: #222;
+    flex-direction: column;
+    width: 100%;
+    display: none;
+    padding: 1rem 2rem;
+  }
+
+  .nav-links.open {
+    display: flex;
+  }
+
+  .hamburger {
+    display: flex;
+  }
+}
+.resume-modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.9);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.resume-content {
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  max-height: 90%;
+  overflow-y: auto;
+  width: 90%;
+  max-width: 800px;
+  box-shadow: 0 0 10px #000;
+}
+
+.resume-content canvas {
+  width: 100% !important;
+  height: auto !important;
+}
+
+.close-btn {
+  background: crimson;
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  font-size: 1.2rem;
+  cursor: pointer;
+  float: right;
+  border-radius: 5px;
+}
+.resume-container {
+  padding: 20px;
+  background-color: #1e1e1e;
+  border-radius: 10px;
+  margin: 1rem;
+}
