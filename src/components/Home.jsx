@@ -34,11 +34,11 @@ const Home = () => {
           <a href="https://wa.me/9731093787" target="_blank" rel="noreferrer" style={{ "--i": 9 }}><i className='bx bxl-whatsapp'></i></a>
         </div>
 
-        <a href="MyResume.pdf" download className="btn">Download CV</a>
+        <a href="Resume.pdf" download className="btn">Download CV</a>
       </div>
 
       <div className="home-img">
-        <img src={pic} width="400" height="400" alt="My Pic" />
+        <img src={pic} width="300" height="300" alt="My Pic" />
       </div>
     </section>
   );
