@@ -1,5 +1,5 @@
 import React, { useRef, useEffect } from 'react';
-import editing from '../assets/editing.jpg';
+import pic from '../assets/pic.jpg';
 import Typed from "typed.js";
 
 const Home = () => {
@@ -38,7 +38,7 @@ const Home = () => {
       </div>
 
       <div className="home-img">
-        <img src={editing} width="400" height="400" alt="My Pic" />
+        <img src={pic} width="400" height="400" alt="My Pic" />
       </div>
     </section>
   );
