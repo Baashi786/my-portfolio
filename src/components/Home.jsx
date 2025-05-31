@@ -34,7 +34,7 @@ const Home = () => {
           <a href="https://wa.me/9731093787" target="_blank" rel="noreferrer" style={{ "--i": 9 }}><i className='bx bxl-whatsapp'></i></a>
         </div>
 
-        <a href="Resume.pdf" download className="btn">Download CV</a>
+        <a href="MyResume.pdf" download className="btn">Download CV</a>
       </div>
 
       <div className="home-img">
