@@ -1,10 +1,11 @@
 var typed = new Typed(".multiple-text", {
-    strings: ["Student", "Frontend Developer"],
-    typeSpeed:100,
-    backSpeeed:100,
-    backDelay:1000,
-    loop:true
+  strings: ["Web Developer", "Student"],
+  typeSpeed: 100,
+  backSpeed: 100,
+  backDelay: 1000,
+  loop: true
 })
+
 
 
 document.addEventListener("DOMContentLoaded", () => {

@@ -7,7 +7,7 @@ const Home = () => {
 
   useEffect(() => {
     const typed = new Typed(typedElement.current, {
-      strings: ["Student", "Frontend Developer"],
+      strings: ["Web Developer", "Student"],
       typeSpeed: 100,
       backSpeed: 100,
       backDelay: 1000,
@@ -28,8 +28,8 @@ const Home = () => {
 
         <div className="social-media">
           <a href="https://www.linkedin.com/in/mohammed-bhashith-328969274" target="_blank" rel="noreferrer" style={{ "--i": 7 }}>
-  <i className='bx bxl-linkedin'></i>
-</a>
+            <i className='bx bxl-linkedin'></i>
+          </a>
           <a href="https://www.instagram.com/_.bachi._07" target="_blank" rel="noreferrer" style={{ "--i": 8 }}><i className='bx bxl-instagram'></i></a>
           <a href="https://wa.me/9731093787" target="_blank" rel="noreferrer" style={{ "--i": 9 }}><i className='bx bxl-whatsapp'></i></a>
         </div>
